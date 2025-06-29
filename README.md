@@ -36,8 +36,14 @@ Loss function: CrossEntropyLoss.
 
 ### Evaluation:
 
-Computes test accuracy.
+#### Dataset:
+The dataset used was a combination of two datasets exported via Roboflow, the first one (Ocean Plastics Waste Detection - Float
+Plastics Dataset) [1] includes 4987 images, and the second one (Ocean Pollution dataset.v1-ocean-debris) [2] includes 626 images. 
 
-Generates a ROC curve (one-vs-rest) with AUC scores.
+![image](https://github.com/user-attachments/assets/9101153f-4c68-4ea1-b608-18071a42d76a)
 
-Displays a confusion matrix.
+### References
+[1] Roboflow, “Float Plastics Dataset.” [Online]. Available:
+https://universe.roboflow.com/ocean-plastics-waste-detection/float-plastics-dataset
+[2] Roboflow, “Ocean Debris Dataset (v1),” [Online]. Available:
+https://universe.roboflow.com/ocean-pollution/dataset.v1-ocean-debris
