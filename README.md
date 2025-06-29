@@ -5,17 +5,11 @@ This project implements a Vision Transformer (ViT) model for image classificatio
 - python==3.8.10
 - torch==2.0.1+cu118  # With CUDA 11.8
 - torchvision==0.15.2+cu118
-
 - timm==0.9.2
-
 - scikit-learn==1.2.2
-
 - matplotlib==3.7.1
-
 - albumentations==1.3.0  
-
 - wandb==0.15.0  
-
 - tensorboard==2.12.0  # For visualization
 
 ### Key Features
