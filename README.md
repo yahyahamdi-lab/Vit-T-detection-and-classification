@@ -2,13 +2,11 @@
 ### Overview
 This project implements a Vision Transformer (ViT) model for image classification tasks using PyTorch and the timm library. The model is trained on a custom dataset, evaluated using performance metrics (accuracy, ROC curve, confusion matrix), and saved for future deployment.
 ### Requirement:
-python==3.8.10  # Tested versions
-
+python==3.8.10  
 torch==2.0.1+cu118  # With CUDA 11.8
-
 torchvision==0.15.2+cu118
-
 timm==0.9.2
+
 scikit-learn==1.2.2
 matplotlib==3.7.1
 albumentations==1.3.0  # For advanced augmentations
