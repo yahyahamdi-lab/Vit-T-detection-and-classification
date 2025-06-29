@@ -1,12 +1,12 @@
 ## Vit-T-detection-and-classification
 ### Overview
-This project implements a Vision Transformer (ViT) model for Aquatic Floating Objects classification and detection tasks using PyTorch and the timm library. The model is trained on a custom dataset, evaluated using performance metrics (accuracy, ROC curve, confusion matrix), and saved for future deployment.
+This project implements a Vision Transformer (ViT) model for Aquatic Floating Objects classification and detection tasks using PyTorch and the timm library. The proposed model combines GAN network for image generation and Vit for detection and classification tasks. The model is trained on a custom dataset, evaluated using performance metrics (accuracy, ROC curve, confusion matrix), and saved for future deployment.
 ![Architecture](https://github.com/user-attachments/assets/363034e6-ea8f-4be0-a894-f71b907f0c2c)
 
 ### Requirement:
 - python==3.8.10
 - torch==2.0.1+cu118  # With CUDA 11.8
-- torchvision==0.15.2+cu118
+- torchvision==0.15.2+cu118s
 - timm==0.9.2
 - scikit-learn==1.2.2
 - matplotlib==3.7.1
