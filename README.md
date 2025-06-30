@@ -47,5 +47,6 @@ Plastics Dataset) [1] includes 4987 images, and the second one (Ocean Pollution 
 ### References
 [1] Roboflow, “Float Plastics Dataset.” [Online]. Available:
 https://universe.roboflow.com/ocean-plastics-waste-detection/float-plastics-dataset
+
 [2] Roboflow, “Ocean Debris Dataset (v1),” [Online]. Available:
 https://universe.roboflow.com/ocean-pollution/dataset.v1-ocean-debris
